@@ -10,6 +10,7 @@ exports.delete = (req, res, next) => {
     res.status(200).send(`Requisição recebida com sucesso! ${id}`);
 };
 
+
 exports.pessoas = (req, res, next) => {
     res.status(201).send('Agorra vai!');
 };
